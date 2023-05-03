@@ -15,9 +15,16 @@
         name="searchQuery"
         autocomplete="off"
         placeholder="Search images..."
+        class="search-form-input"
       />
-      <button type="submit">Search</button>
+      <button type="submit" class="search-form-btn">Search</button>
     </form>
+    <section class="photo-gallery container">
+      <div class="gallery">
+        <!-- Картки фото -->
+      </div>
+    </section>
+
     <div class="photo-card">
       <img src="#" alt="" loading="lazy" />
       <div class="info">
@@ -35,7 +42,7 @@
         </p>
       </div>
     </div>
-    <button type="button" class="load-more">Load more</button>
+    <button type="button" class="load-more is-hidden">Load more</button>
     <script src="./index.js" type="module"></script>
     <include src="./partials/example.html"></include>
   </body>
